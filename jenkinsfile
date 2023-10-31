@@ -4,12 +4,12 @@ pipeline {
     stages {
         stage('build') {
             steps {
-                echo 'Hello build'
+                echo 'Hello build stage'
             }
         }
         stage('test') {
             steps {
-                echo 'Hello test'
+                echo 'Hello tes staget'
             }
         }
       stage('approval') {
@@ -21,7 +21,7 @@ pipeline {
 
         stage('deploy') {
             steps {
-                echo 'Hello deploy'
+                echo 'Hello deploy stage'
             }
         }
     }
